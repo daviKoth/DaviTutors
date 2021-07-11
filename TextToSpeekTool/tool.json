@@ -1,0 +1,9 @@
+{
+  "tool-name": "Text to Speek tool",
+  "tool-version": "v2.1",
+  "tool-description": "Tool for speaking sound",
+  "origins": {
+    "scripts": "const.js, function.js"
+  },
+  "tooljson-version": 4
+}
