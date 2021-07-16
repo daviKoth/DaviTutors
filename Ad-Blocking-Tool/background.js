@@ -1,5 +1,8 @@
 const defaultFilters = [
-        "*://adinplay.com/*",
+	"*://ads.adobe.com/*",
+	"*://*.phads.com/*",
+	"*://*.cpmstar.com/*",
+	"*://adinplay.com/*",
 	"*://*.doubleclick.net/*",
 	"*://partner.googleadservices.com/*",
 	"*://*.googlesyndication.com/*",
@@ -9,7 +12,7 @@ const defaultFilters = [
 	"*://*.exponential.com/*",
 	"*://*.quantserve.com/*",
 	"*://*.scorecardresearch.com/*",
-	"*://*.zedo.com/*",
+	"*://*.zedo.com/*"
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
